@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { useMoralis } from 'react-moralis'
 import Avatar from '../components/Avatar'
-import ChangeUsername from '../components/Changeusername'
+import ChangeUsername from '../components/ChangeUsername'
 
 function Header() {
   const {user} = useMoralis()
