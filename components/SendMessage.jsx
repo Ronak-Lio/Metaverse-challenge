@@ -31,7 +31,7 @@ function SendMessage({endOfMessagesRef}) {
  }
   return (
     <form action=""
-     className="flex justify-between fixed bottom-10 bg-black opacity-80 w-11/12 px-6 py-4 max-w-xl shadow-xl rounded-full border-4 brder-blue-400"
+     className="flex justify-between fixed bottom-10 bg-black opacity-80 w-11/12 px-6 py-4 max-w-xl shadow-xl rounded-full  brder-blue-400"
     >
         <input type="text" 
          className="outline-none bg-transparent text-white placeholder-gray-500 pr-5"
@@ -40,7 +40,7 @@ function SendMessage({endOfMessagesRef}) {
          onChange = {(e) => setMessage(e.target.value)}
         />
         <button
-         className='font-bold text-pink-500'
+         className='font-bold text-blue-500'
          onClick = {sendMessage}
         >Send</button>
     </form>

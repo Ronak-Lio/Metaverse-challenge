@@ -14,7 +14,14 @@ const Home: NextPage = () => {
     <div className="h-screen overflow-y-scroll 
      bg-gradient-to-b from-black to-fuchsia-900
      overflow-hidden
-    ">
+    "
+     style = {{
+       backgroundImage : `url("https://thumbs.gfycat.com/SneakyUnripeAssassinbug.webp")`,
+       backgroundSize : 'cover',
+       backgroundRepeat : 'no-repeat',
+       backgroundPosition : 'center'
+     }}
+    >
       <Head>
         <title>Metaverse Challenge</title>
         <link rel="icon" href="/favicon.ico" />

@@ -7,7 +7,7 @@ import ChangeUsername from '../components/ChangeUsername'
 function Header() {
   const {user} = useMoralis()
   return (
-    <div className = 'text-pink sticky top-0 p-5 z-50 text-pink-500 bg-black shadow-sm border-b-2 border-pink-700'>
+    <div className = 'text-pink sticky top-0 p-5 z-50 text-blue-500 bg-gradient-to-b from-black to-blue-900 shadow-sm border-b-2 border-blue-700'>
        <div className = 'grid grid-cols-5 lg:grid-cols-6 items-end lg:items-center'>
            <div className = 'relative h-24 w-24 mx-auto hidden lg:inline-grid'>
                <Image
@@ -19,13 +19,13 @@ function Header() {
            </div>
 
           <div className = 'col-span-4 text-left lg:text-center'>
-          <div className = 'h-48 w-48 relative lg:mx-auto border-pink-500 border-8 rounded-full'>
+          <div className = 'h-48 w-48 relative lg:mx-auto border-blue-500 border-8 rounded-full'>
                <Avatar/>
            </div>
 
            <h1
             className = 'text-3xl'
-           >Welcome to the PAPAFAM Metaverse</h1>
+           >Welcome to the Metaverse</h1>
 
            <h2
             className = 'text-5xl font-bold truncate'
